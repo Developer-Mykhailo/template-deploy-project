@@ -1,21 +1,13 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
-  list-style: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
 }
 
 a {
@@ -24,6 +16,8 @@ a {
 }
 
 button {
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
 
